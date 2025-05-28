@@ -41,8 +41,6 @@ reload.addEventListener('submit', async (e) => {
 
     const sentiment = await response.json();
 
-    console.log(sentiment);
-
     setRatios(sentiment);
     setTitle(title);
 })
