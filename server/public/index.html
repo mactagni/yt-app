@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>YTLikes</title>
+</head>
+<body>
+    <div class="sentiment-bar"></div>
+    <br>
+    <br>
+    <div class="content">
+        <span class="like-ratio-section">
+            <div class="thumbs-up">
+                <img src="src/images/like-button-icon.png" alt="thumbs-up" srcset="">
+                <span class="like-ratio"></span>
+            </div>
+            <div class="thumbs-down">
+                <img src="src/images/dislike-button-icon.png" alt="thumbs-down" srcset="">
+                <span class="dislike-ratio"></span>
+            </div>
+        </span>
+        <div class="reload-button-section">
+            <form id="reload">
+                <button  type="submit">
+                    <img src="src/images/refresh-icon.svg" alt="">
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="video-info-section">
+        <p class="video-title"></p>
+    </div>
+    <script async src="scripts/index.js"></script>  
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    background-color: #303030;
+    stroke: #5A5A5A;
+    color: #CBCBCB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 250px;
+    /* height: 18rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like-ratio-section, .reload-button-section {
+    margin-bottom: 1.5rem;
+}
+
+.like-ratio-section {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-ratio, .dislike-ratio {
+    font-weight: 600;
+    font-size: 0.80rem;
+}
+
+.like-ratio {
+    color: green
+}
+
+.dislike-ratio {
+    color: red
+}
+
+.sentiment-bar {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: #CBCBCB;
+}
+
+img {
+    filter: invert(70%);
+}
+
+.thumbs-up img, .thumbs-down img {
+    width: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: #303030;
+}
+
+button:hover {
+    background-color: #3a3a3a;
+}
+
+#reload img {
+    width: 2rem;
+}
+
+.video-title {
+    text-align: center;
+}
