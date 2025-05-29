@@ -17,6 +17,6 @@ Thus, the information you are given is more representative of the video itself.
 
 To use YTL, simply clone the repo and provide a `googleapis` API key that specifically gives access to `Youtube API v3`.
 
-You will then [follow instructions](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?authuser=1) to add the extension to your chrome browser. Lastly, start up the nitro server via `npm run dev` and navigate to the Youtube video of your choice and voila!
+You will then <a href="https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?authuser=1" target="_blank">follow instructions</a> to add the extension to your chrome browser. Lastly, start up the nitro server via `npm run dev` and navigate to the Youtube video of your choice and voila!
 
 Other sites and Youtube shorts are not currently supported.
